@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model caches
+.cache/
+.cache_huggingface/
+models/
+*.pt
+*.pth
+*.safetensors
+
+# Temporary files
+temp_*/
+tmp/
+*.log
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Personal files
+Akshaya resume.pdf
+resume path.txt
+
